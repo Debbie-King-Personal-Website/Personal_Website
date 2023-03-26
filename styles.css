@@ -1,0 +1,34 @@
+.menu {
+	list-style: none;
+}
+.body {
+	background-image: url("imgs/cyberpunk_background.jpg");
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color:pink
+}
+
+.logo {
+	height: 50px;
+	width:50px
+}
+
+#page-container {
+	position: relative;
+	min-height: 100vh;
+  }
+  
+#content-wrap {
+	padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
+ #footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 2.5rem;            /* Footer height */
+	text-align: center;
+ }
