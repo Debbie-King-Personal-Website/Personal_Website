@@ -1,0 +1,87 @@
+:root {
+ 
+}
+
+header {
+	position: fixed;
+	left: 0;
+	right: 0;
+	background-image: url("imgs/nightsky.jpg");
+	}
+
+body {
+	margin: 0;
+}
+
+.name {
+	position: fixed, center;
+	margin-top: 0px;
+	text-align: center;
+	height: 2em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: rgb(170, 57, 164);
+
+}
+
+.links {
+	float: right;
+	margin-bottom: 2em;
+}
+
+#home {
+	margin-right: 10px;
+}
+
+#portfolio {
+	margin-right: 10px;
+}
+
+#about {
+	margin-right: 20px;
+}
+
+#page-container {
+	position: relative;
+	min-height: 100vh;
+	white-space: 0;
+}
+  
+  #content-wrap {
+	padding-bottom: 2.5rem;    /* Footer height */
+ }
+  
+ main {
+	background: center/cover url("imgs/cyberpunk_background.jpg") no-repeat;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	white-space: none;
+    padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+
+ footer {
+	border-color: black;
+	border-style: dashed;
+	position: absolute;
+	width: 100%;
+	height: 2.5rem;
+	margin-top: 0px;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: white;
+}
+
+.connect {
+	position: fixed, center;
+	margin-top: 0px;
+	text-align: center;
+	height: 2em;
+	display: flex;
+	align-items: center;
+	justify-content: center
+}
