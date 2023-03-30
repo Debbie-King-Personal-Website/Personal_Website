@@ -4,57 +4,37 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>About Debbie King</title>
+    <meta name="description" content="Debbie King's website" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Debbie King's Personal Website</title>
   </head>
-  <body class="body">
-    <header>
-      <nav>
-        <ul>
-			<a href="index.html">
-				<li>Home</li>
-			</a>
-			<a href="about.html">
-				<li>About</li>
-			</a>
-			<a href="portfolio.html">
-          		<li>Portfolio</li>
-		  	</a>
-	        </ul>
-      </nav>
-      <hr/>
-      <h1>Debbie King</h1>
-    </header>
-    <section Class="main">
-      <p>
-        This all should read like a story. Basic set-up, a challenge/conflict, rising to the challenge, and ending. What experience outside of coding are you looking for? In my role as a
-        Lead Community Organizer I worked
-      </p>
-      <h3>Motivations</h3>
-      <p>
-        Why do I want to be a Web Devloper? Novel changes are a constant, I love
-        to learn new things. Working with technology to crete things that people
-        use in their day to day lives.
-      </p>
-      <h3>History</h3>
-      <p>I started my journey into coding by using <a href="www.freedodecamp.org" target="_blank">Free Code Camp</a>. Write about my work experience that primes me for coding</p>
-      <h3>Web Development Skills</h3>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-      </ul>
-    </section>
-    <footer>
-    		<div>
-			<a href="https://www.linkedin.com/in/debbieaking/" target=”_blank”>
-				<img class="logo" src="imgs/linkedinlogo.jpg">
-			</a>
-			<a href="https://github.com/DebFullstack" target=”_blank”>
-				<img class="logo" src="imgs/githublogo.jpg">
-			</a>
-		</div>
-    </footer>
+  <body>
+    <div>
+      <header>
+        <nav id="links">
+          <a class="active" id="home" href="index.html">HOME</a>
+          <a id="portfolio" href="portfolio.html">PORTFOLIO</a>
+          <a id="about" href="about.html">ABOUT</a>
+        </nav>
+        <hr />
+        <h1 id="name"><strong>Debbie King</strong></h1>
+      </header>
+
+      <main>
+       
+      </main>
+
+      <footer>
+        <h4 id="footerName">Debbie King</h4>
+
+        <a href="https://www.linkedin.com/in/debbieaking/" target="_blank"
+          ><img src="imgs/linkedinlogo.png" class="socialIcon"
+        /></a>
+        <a href="https://github.com/DebFullstack" target="_blank"
+          ><img src="imgs/githublogo.png" class="socialIcon" id="gitHubLogo"
+        /></a>
+      </footer>
+    </div>
 
     <script src="javascript.js"></script>
   </body>

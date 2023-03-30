@@ -24,7 +24,9 @@ header {
 	position: fixed; /* Set the navbar to fixed position */
   	top: 0; /* Position the navbar at the top of the page */
  	width: 100%; /* Full width */
+	 background-color: rgb(236, 203, 57);
 }
+
 
 #links {
 	float: left;
@@ -32,6 +34,11 @@ header {
 	margin-bottom: 1rem;
 	margin-top: .5rem;
 	text-align: center;
+}
+
+#gitHubLogo {
+	margin-right: 10px;
+	
 }
 
 #home {
@@ -48,12 +55,19 @@ header {
 	color: #4e0808;
 }
 
+footer {
+	margin: 0px 0px 10px 5px;
+}
 .socialIcon {
 	width: 20px;
-	float: right;
+	text-align: center;
+	margin-left: 10px;
+	margin-bottom: 10px;
 }
 
 #footerName {
+	text-align: left;
+
 	color:#4e0808;
 }
 	
