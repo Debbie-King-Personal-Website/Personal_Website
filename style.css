@@ -14,6 +14,8 @@ body {
 	width: 100%;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: smaller;
+	color: rgb(236, 203, 57);
+	font-size: medium;
 }
 
 header {
@@ -25,9 +27,6 @@ header {
 	 background-color: rgb(236, 203, 57);
 }
 
-main {
-	color: aliceblue;
-}
 
 #aboutParagraph1 {
 	padding-top: 2rem;
