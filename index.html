@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Debbie King's website" />
     <link rel="stylesheet" href="style.css" />
     <title>Debbie King's Personal Website</title>
   </head>
@@ -11,33 +12,40 @@
     <div id="page-container">
       <div id="content-wrap">
         <header>
-          <span class="name">Debbie King</span>
-          <nav class="links">
+          <nav id="links">
             <a class="active" id="home" href="index.html">HOME</a>
             <a id="portfolio" href="portfolio.html">PORTFOLIO</a>
             <a id="about" href="about.html">ABOUT</a>
           </nav>
+          <hr />
+          <h1 id="name"><strong>Debbie King</strong></h1>
         </header>
+
         <main>
-          <section>something goes here</section>
-          <!--Ideas to put here
-1. a video of me talking about something
-2. a slide show of my hobbies
-3. a quote-->
+          <div id="quote">
+            <p>
+              Get Busy Living or <br />
+              Get Busy Dying
+            </p>
+          </div>
+          <div id="quoteSource">
+            <p>--Red, The Shawshank Redemption</p>
+          </div>
         </main>
+
+        <footer>
+          <h4 id="footerName">Debbie King</h4>
+
+          <a href="https://www.linkedin.com/in/debbieaking/" target="_blank"
+            ><img src="imgs/linkedinlogo.png" class="socialIcon"
+          /></a>
+          <a href="https://github.com/DebFullstack" target="_blank"
+            ><img src="imgs/githublogo.png" class="socialIcon"
+          /></a>
+        </footer>
       </div>
-      <footer>
-        <div class="connect">CONNECT WITH ME</div>
-        <div>
-          <a href="https://www.linkedin.com/in/debbieaking/" 
-            ><img src="imgs/linkedinlogo.png"
-          /></a>
-          <a href="https://github.com/DebFullstack"
-            ><img src="imgs/githublogo.png"
-          /></a>
-        </div>
-      </footer>
     </div>
+
     <script src="javascript.js"></script>
   </body>
 </html>

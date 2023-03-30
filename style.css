@@ -1,87 +1,68 @@
-:root {
- 
-}
-
-header {
-	position: fixed;
-	left: 0;
-	right: 0;
-	background-image: url("imgs/nightsky.jpg");
-	}
-
 body {
-	margin: 0;
+	margin: 0px;
+	padding: 0px;
+	background-color: rgb(236, 203, 57);
 }
 
-.name {
-	position: fixed, center;
-	margin-top: 0px;
-	text-align: center;
-	height: 2em;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	color: rgb(170, 57, 164);
-
-}
-
-.links {
-	float: right;
-	margin-bottom: 2em;
-}
-
-#home {
-	margin-right: 10px;
-}
-
-#portfolio {
-	margin-right: 10px;
-}
-
-#about {
-	margin-right: 20px;
-}
-
-#page-container {
-	position: relative;
-	min-height: 100vh;
-	white-space: 0;
-}
-  
-  #content-wrap {
-	padding-bottom: 2.5rem;    /* Footer height */
- }
-  
  main {
-	background: center/cover url("imgs/cyberpunk_background.jpg") no-repeat;
+	background: center/cover url("imgs/sunflower.png") no-repeat;
 	background-repeat: no-repeat;
 	min-height: 100vh;
 	white-space: none;
     padding: 0px;
-	margin: 0px;
+	margin-top: 120px;
 	width: 100%;
+	color: rgb(236, 203, 57);
+	font-style: italic;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: smaller;
 }
 
- footer {
-	border-color: black;
-	border-style: dashed;
-	position: absolute;
-	width: 100%;
-	height: 2.5rem;
-	margin-top: 0px;
-	position: fixed;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-color: white;
+header {
+	margin: 0%;
+	padding: 0%;
+	position: fixed; /* Set the navbar to fixed position */
+  	top: 0; /* Position the navbar at the top of the page */
+ 	width: 100%; /* Full width */
 }
 
-.connect {
-	position: fixed, center;
-	margin-top: 0px;
+#links {
+	float: left;
+	width: 100%;
+	margin-bottom: 1rem;
+	margin-top: .5rem;
 	text-align: center;
-	height: 2em;
-	display: flex;
-	align-items: center;
-	justify-content: center
 }
+
+#home {
+	margin-right: 2rem;
+}
+
+#portfolio {
+	margin-right: 2rem;
+}
+
+#name {
+	text-align: center;
+	background-color: rgba(165, 42, 42, 0.822);
+	color: #4e0808;
+}
+
+.socialIcon {
+	width: 20px;
+	float: right;
+}
+
+#footerName {
+	color:#4e0808;
+}
+	
+#quote {
+	padding-top: 15%;
+	padding-left: 10%;
+	font-size: medium;
+}
+#quoteSource {
+	padding-top: 50%;
+}
+  
