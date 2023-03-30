@@ -83,12 +83,31 @@ footer {
 	color:#4e0808;
 }
 	
+#portfolioOfWorkLink {
+	color:aliceblue /*change all link colors and their states*/
+
+}
+
 #quote {
 	padding-top: 15%;
 	padding-left: 10%;
 	font-size: medium;
+	font-style: italic;
 }
 #quoteSource {
 	padding-top: 50%;
+	font-style: italic;
+}
+
+#aboutTextParagraph1 {
+	margin-left: 2rem;
+	padding-top: 3rem;
+}
+  
+#aboutTextParagraph2 {
+	margin-left: 3rem;
+	padding-top: 2.5rem;
+	color: white;
+	font-style: bold;
 }
   
