@@ -1,1 +1,82 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: rgb(236, 203, 57);
+}
 
+ main {
+	background: center/cover url("imgs/sunflower.png") no-repeat;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	white-space: none;
+    padding: 0px;
+	margin-top: 120px;
+	width: 100%;
+	color: rgb(236, 203, 57);
+	font-style: italic;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: smaller;
+}
+
+header {
+	margin: 0%;
+	padding: 0%;
+	position: fixed; /* Set the navbar to fixed position */
+  	top: 0; /* Position the navbar at the top of the page */
+ 	width: 100%; /* Full width */
+	 background-color: rgb(236, 203, 57);
+}
+
+
+#links {
+	float: left;
+	width: 100%;
+	margin-bottom: 1rem;
+	margin-top: .5rem;
+	text-align: center;
+}
+
+#gitHubLogo {
+	margin-right: 10px;
+	
+}
+
+#home {
+	margin-right: 2rem;
+}
+
+#portfolio {
+	margin-right: 2rem;
+}
+
+#name {
+	text-align: center;
+	background-color: rgba(165, 42, 42, 0.822);
+	color: #4e0808;
+}
+
+footer {
+	margin: 0px 0px 10px 5px;
+}
+.socialIcon {
+	width: 20px;
+	text-align: center;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+#footerName {
+	text-align: left;
+
+	color:#4e0808;
+}
+	
+#quote {
+	padding-top: 15%;
+	padding-left: 10%;
+	font-size: medium;
+}
+#quoteSource {
+	padding-top: 50%;
+}
+  
