@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Debbie King's website" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="portfoliostyle.css" />
     <title>Debbie King's Personal Website</title>
   </head>
   <body>
     <div>
       <header>
         <nav id="links">
-          <a class="active" id="home" href="index.html">HOME</a>
-          <a id="portfolio" href="portfolio.html">PORTFOLIO</a>
+          <a id="home" href="index.html">HOME</a>
+          <a class="active" id="portfolio" href="portfolio.html">PORTFOLIO</a>
           <a id="about" href="about.html">ABOUT</a>
         </nav>
         <hr />
@@ -21,15 +21,35 @@
       </header>
 
       <main>
-        <div id="quote">
-          <p>
-            Get Busy Living or <br />
-            Get Busy Dying
-          </p>
-        </div>
-        <div id="quoteSource">
-          <p>--Red, The Shawshank Redemption</p>
-        </div>
+        <h1>My Work So Far</h1>
+          <div>
+            <h3>My First HTML Project</h3>
+            <div class="project">
+              <div><img id=htmlImage src="imgs/theZooProblem.png"> 
+              </div>
+              <div id="htmlText"><p>My very first project was to act as a contracted web designer. My task was to create a simple webpage for my client to help new interns learn the names of the resident animals and understand each species needs.It included links and pictures and a little bit on inline styling.</p>
+              </div>
+            </div>
+
+            <h3>My First CSS Project</h3>
+            <div class="project">
+              <div><img id=cssImage src="imgs/block06_DebbieKing.jpg"> 
+              </div>
+              <div id="cssText"><p>My first CSS project was to design a grocery list to be displayed on a webpage. I was introduced to using different types of lists and styling in CSS.</p>
+              </div>
+              </div>
+
+            <h3>My First Javascript Project</h3>
+            <div class="project">
+            <div><img id=javascriptImage src="imgs/secureTheVault.png"> 
+            </div>
+            <div id="javascriptText"><p>The 3rd project I worked on was to write very simple JavaScript code to create an alert pop-up when a webpage loads.</p>
+            </div>
+          </div>
+
+          </div>
+
+        
       </main>
 
       <footer>
@@ -44,6 +64,6 @@
       </footer>
     </div>
 
-    <script src="javascript.js"></script>
+  
   </body>
 </html>
