@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Debbie King's website" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Debbie King's Personal Website</title>
+    <link rel="stylesheet" href="portfoliostyle.css" />
+    <title>Debbie King's Personal Website Portfolio Page</title>
   </head>
   <body>
     <div>
       <header>
         <nav id="links">
-          <a class="active" id="home" href="index.html">HOME</a>
-          <a id="portfolio" href="portfolio.html">PORTFOLIO</a>
+          <a id="home" href="index.html">HOME</a>
+          <a class="active" id="portfolio" href="portfolio.html">PORTFOLIO</a>
           <a id="about" href="about.html">ABOUT</a>
         </nav>
         <hr />
@@ -21,15 +21,26 @@
       </header>
 
       <main>
-        <div id="quote">
-          <p>
-            Get Busy Living or <br />
-            Get Busy Dying
-          </p>
-        </div>
-        <div id="quoteSource">
-          <p>--Red, The Shawshank Redemption</p>
-        </div>
+		<h1>Projects</h1>
+		<section class="project">
+			<h2 class="projectName">First HTML Project</h2>
+			<div id="htmlProject"><img src="imgs/theZooProblem.png">
+			<div class="ProjectText"><p>For my first HTML project I was contracted to create a simple webpage that would make it easier for new interns at the client's zoo to identify each zoo animal and understand each animal's needs.</p></div>
+			</div>
+		</section>
+		<section class="project">
+			<h2 class="projectName">First CSS Project</h2>
+			<div id="cssProject"><img src="imgs/block06_DebbieKing.jpg">
+				<div class="ProjectText"><p>My first CSS project was a basic webpage of a neat grocery list styled with a styles.css file.</p></div>
+		</div>
+		</section>
+		<section class="project">
+			<h2 class="projectName">First JavaScript Project</h2>
+			<div id="javascriptProject"><img src="imgs/secureTheVault.png">
+				<div class="ProjectText"><p>For my first JavaScript project I designed a webpage the had a JavaScript alert when the page is loaded.</p></div>
+			</div>
+		</section>
+   
       </main>
 
       <footer>
@@ -44,6 +55,6 @@
       </footer>
     </div>
 
-    <script src="javascript.js"></script>
+    
   </body>
 </html>

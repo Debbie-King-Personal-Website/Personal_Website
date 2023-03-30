@@ -5,16 +5,15 @@ body {
 }
 
  main {
-	background: center/cover url("imgs/sunflower.png") no-repeat;
-	background-repeat: no-repeat;
 	min-height: 100vh;
 	white-space: none;
     padding: 0px;
 	margin-top: 120px;
 	width: 100%;
-	color: rgb(236, 203, 57);
+	color: black;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: smaller;
+	
 }
 
 header {
@@ -54,6 +53,40 @@ header {
 	color: #4e0808;
 }
 
+img {
+	width:15rem;
+	height: 15remrem;
+	display: inline;
+	border-style: solid;
+	border-width: thin;
+	}
+
+.projectName, h1 {
+	text-align: center;
+}
+
+#htmlProject {
+	border-style: solid;
+	border-width: thick;
+	width: 100%;
+}
+
+#cssProject {
+	border-style: solid;
+	border-width: thick;
+	width: 100%;
+}
+
+#javascriptProject {
+	border-style: solid;
+	border-width: thick;
+	width: 100%;
+}
+
+.projectText {
+	float: right;
+}
+
 footer {
 	margin: 0px 0px 10px 5px;
 }
@@ -62,6 +95,7 @@ footer {
 	text-align: center;
 	margin-left: 10px;
 	margin-bottom: 10px;
+	border-style: hidden;
 }
 
 #footerName {
@@ -70,31 +104,5 @@ footer {
 	color:#4e0808;
 }
 	
-#portfolioOfWorkLink {
-	color:aliceblue /*change all link colors and their states*/
 
-}
-
-#quote {
-	padding-top: 15%;
-	padding-left: 10%;
-	font-size: medium;
-	font-style: italic;
-}
-#quoteSource {
-	padding-top: 50%;
-	font-style: italic;
-}
-
-#aboutTextParagraph1 {
-	margin-left: 2rem;
-	padding-top: 3rem;
-}
-  
-#aboutTextParagraph2 {
-	margin-left: 3rem;
-	padding-top: 2.5rem;
-	color: white;
-	font-style: bold;
-}
   
