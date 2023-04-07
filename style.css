@@ -1,1 +1,133 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: rgb(236, 203, 57);
+}
 
+ main {
+	background: center/cover url("imgs/sunflower.png") no-repeat;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	white-space: none;
+    padding: 2rem;
+	margin-top: 8rem;
+	width: 100%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: smaller;
+	color: rgb(236, 203, 57);
+	font-size: medium;
+}
+
+header {
+	margin: 0%;
+	padding: 0%;
+	position: fixed; /* Set the navbar to fixed position */
+  	top: 0; /* Position the navbar at the top of the page */
+ 	width: 100%; /* Full width */
+	 background-color: rgb(236, 203, 57);
+}
+
+h5 {
+	display: block;
+	margin-left: 3rem;
+}
+
+
+#aboutParagraph1 {
+	padding-top: 2rem;
+	padding-left: .5rem;
+}
+
+#aboutParagragh2 {
+	padding-top: 1rem;
+	padding-left:.5rem;
+	
+}
+
+#links {
+	float: left;
+	width: 100%;
+	margin-bottom: 1rem;
+	margin-top: .5rem;
+	text-align: center;
+}
+
+#gitHubLogo {
+	margin-right: 10px;
+	
+}
+
+#home {
+	margin-left: 2rem;
+}
+
+#home, #portfolio, #about {
+	margin-right: 2rem;
+}
+
+
+#name {
+	text-align: center;
+	background-color: rgba(165, 42, 42, 0.822);
+	color: #4e0808;
+}
+
+#contact {
+	margin-right: 2rem;
+}
+
+footer {
+	margin: 0px 0px 10px 5px;
+}
+.socialIcon {
+	width: 20px;
+	text-align: center;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+#footerName {
+	text-align: left;
+
+	color:#4e0808;
+}
+	
+#portfolioOfWorkLink {
+	color:aliceblue /*change all link colors and their states*/
+
+}
+
+#quote {
+	padding-top: 15%;
+	padding-left: 10%;
+	font-size: medium;
+	font-style: italic;
+}
+#quoteSource {
+	padding-top: 50%;
+	font-style: italic;
+}
+
+#aboutTextParagraph1 {
+	margin-left: 2rem;
+	padding-top: 3rem;
+}
+  
+#aboutTextParagraph2 {
+	margin-left: 3rem;
+	padding-top: 2.5rem;
+	color: white;
+	font-style: bold;
+}
+  
+.form {
+	display: block;
+	margin-left: 3rem;
+	}
+
+#form {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
