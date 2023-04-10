@@ -1,7 +1,6 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	background-color: rgb(236, 203, 57);
 }
 
  main {
@@ -14,7 +13,7 @@ body {
 	width: 100%;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: smaller;
-	color: rgb(236, 203, 57);
+	color: rgb(245, 212, 67);
 	font-size: medium;
 }
 
@@ -24,13 +23,28 @@ header {
 	position: fixed; /* Set the navbar to fixed position */
   	top: 0; /* Position the navbar at the top of the page */
  	width: 100%; /* Full width */
-	 background-color: rgb(236, 203, 57);
 }
+
+.active {
+	background-color: rgb(165, 42, 42, 0.822);
+	color: rgb(177, 133, 133);
+}
+
+
 
 h5 {
 	display: block;
 	margin-left: 3rem;
 }
+
+img {
+	width: 10rem;
+	display: inline;
+	border-style: solid;
+	border-width: thin;
+	float: left;
+	margin-right: 5px;
+	}
 
 
 #aboutParagraph1 {
@@ -52,6 +66,10 @@ h5 {
 	text-align: center;
 }
 
+a:hover {
+	color: blanchedalmond;
+}
+
 #gitHubLogo {
 	margin-right: 10px;
 	
@@ -61,14 +79,15 @@ h5 {
 	margin-left: 2rem;
 }
 
-#home, #portfolio, #about {
+#home, #portfolio, #about, #contact {
 	margin-right: 2rem;
+	padding: 0 5px 0 5px;
+	color:#4e0808;
 }
 
 
 #name {
 	text-align: center;
-	background-color: rgba(165, 42, 42, 0.822);
 	color: #4e0808;
 }
 
